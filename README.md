@@ -1,4 +1,5 @@
-This repository contains a collection of scripts to start a simple web server using various languages and command-line tools. The scripts are designed to be easy to use and suitable for quick paylod testing and development.
+This repository contain script to start a simple web server using powershell. 
+The script is designed for quick paylod delivery and testing when traditional solutions are not available.
 
 To run the **PowerShell** script that sets up an HTTP server, you need to ensure that the following components are present on the host:
 
@@ -16,7 +17,8 @@ To run the **PowerShell** script that sets up an HTTP server, you need to ensure
 No additional specific packages or modules need to be installed if these prerequisites are met.
 
 Example
+To start server
 ```powershell
-PS C:\Users\Administrator\Desktop> .\HTTP.ps1 -Port 9303
-HTTP server running on port 9303
+PS C:\Users\Administrator\Desktop> .\HTTP.ps1 -Port 8000
+HTTP server running on port 8000
 ```
